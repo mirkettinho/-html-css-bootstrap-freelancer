@@ -1,0 +1,16 @@
+.debug{
+  background-color: orange;
+  border: 1px solid black;
+  min-height: 100px;
+}
+
+.ps-jumbotron{
+  height: 300px;
+  background-color: green;
+}
+
+.ps-container{
+  width: 400px;
+  margin: 0 auto;
+  
+}
