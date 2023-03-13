@@ -1,56 +1,142 @@
-/* debug */
-[class^= "container"],[class^= "col"], .ps-container{
-  background-color: aqua;
-  border: 1px solid black;
-  min-height: 50px;
-}
+/* GENERAL */
 
 .ps-container{
   width: 60%;
   margin: 0 auto;
 }
 
+h2{
+  font-size: 1.3rem;
+}
+
+
+/* HEADER */
 header{
   background-color: #2c3e50;
-  height: 90px;
+  height: 50px;
   color: white;
 }
 
+/* JUMBOTRON */
 .ps-jumbotron{
-  color: red;
-  height: 250px;
+  background-color: #1abc9c;
   color: rgb(255, 255, 255);
+  padding: 10px 0px;
 }
 
+.image{
+  width: 150px;
+  text-align: center;
+} 
+ 
+.image img{
+  width: 100%;
+}
+
+
+/* MAIN */
+
+/* PORTFOLIO */
+
+.ps-card{
+  padding: 10px 0;
+}
+
+.ps-card img{
+  border-radius: 10px;
+}
+
+.ps-layer{
+  background-color: #1abc9cd3;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
+  border-radius: 10px;
+  display: none;
+}
+
+.ps-layer i{
+  position: absolute;
+  font-size: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  cursor: pointer;
+}
+.ps-card:hover .ps-layer{
+  display: block;
+}
+img{
+  width: 100%;
+} 
+
+
+/* ABOUT */
+
+#about{
+  background-color: #1abc9c;
+  color: white;
+}
+
+.df-btn{
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-primary.df-btn:hover{
+  background-color: #1abc9c;
+  border-color: white;
+}
+/* CONTACTS */
+
+#contacts{
+  color: #2c3e50;
+}
+
+
+.btn.ps-btn{
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+}
+
+.form-control{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
+
+/* FOOTER */
 footer{
   color: rgb(195, 216, 8);
 }
 
 .footer-top{
-  background-color: bisque;
+  background-color: #3a546d;
+  color: white;
 }
 
 .footer-bottom{
-  background-color: blueviolet;
+  background-color: #2c3e50;
+  color: white;
 }
 
 
-.image img{
-  width: 100%;
+footer .col i{
+  font-size: 15px;
+  padding: 10px 12px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
-.image{
-  width: 150px;
+footer p span{
+  color: #1abc9c;
 }
 
-img{
-  width: 10%;
-}
 
-.ps-col{
- height: 200px;
-}
 
-.ps-col img{
-  object-fit: cover;
-}
